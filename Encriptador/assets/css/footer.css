@@ -1,0 +1,12 @@
+footer{
+    text-align: center;
+    height: 4rem;
+    background: #f3f5fc;
+}
+@media screen and (max-width: 768px) {
+    .footer{
+        width: 100%;
+        bottom: 0;
+    }
+
+}
