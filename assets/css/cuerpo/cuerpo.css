@@ -1,0 +1,38 @@
+.cuerpo{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    min-height:calc(100vh - 4rem - 60px);
+    gap: 1rem;
+    padding: 0.75rem;
+
+}
+.cuerpo__texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+.informacion{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    height: 18px;
+    margin-left: 5px
+}
+@media screen and (max-width: 768px) {
+    .cuerpo {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .cuerpo__texto{
+        width: 100%;
+    }
+    .alerta{
+        padding-left: 1.4rem;
+    }
+}

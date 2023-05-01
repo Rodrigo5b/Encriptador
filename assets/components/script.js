@@ -20,7 +20,6 @@
         info.style.display = "none";
         btnCopiar.classList.remove("ocultar");
         entradaTexto.value = "";
-        // entradaTexto.placeholder = "Texto Encriptado."
         mensajeFinal.classList.add("ajustar");
         ajuste.classList.add("ajuste")
     }
@@ -47,8 +46,6 @@
                 };
                 return newtext
             };
-            
-            // cambios(encriptar(texto))no funciona
             const timer = encriptar(texto)
             cambios(timer)
 
