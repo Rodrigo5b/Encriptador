@@ -1,0 +1,22 @@
+.cabecera{
+    height: 60px;
+    width: 80%;
+    margin: auto;
+
+}
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 2.5rem;
+}
+@media screen and (max-width: 768px) {
+    .cabecera {
+        padding-left: 0.5rem;
+        padding-top: 1.2rem;
+        margin: revert;
+    }
+    .logo{
+        height: 3rem;
+        width: 2.5rem;
+    }
+}

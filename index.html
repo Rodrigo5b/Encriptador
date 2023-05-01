@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/body.css">
+    <link rel="stylesheet" href="./assets/css/cuerpo.css">
+    <link rel="stylesheet" href="./assets/css/cabecera.css">
+    <link rel="stylesheet" href="./assets/css/cuerpo/cuerpo-textArea.css">
+    <link rel="stylesheet" href="./assets/css/cuerpo/informacion.css">
+    <link rel="stylesheet" href="./assets/css/cuerpo/botones.css">
+    <link rel="stylesheet" href="./assets/css/cuerpo/textoEncriptado.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+</head>
+<body>
+    <div class="body">
+        <header >
+            <div class="cabecera"> 
+                 <img src="./assets/imagenes/Vector.png" alt="logo de alura" class="logo">
+            </div>
+        </header>
+        <main>
+            <div class="cuerpo"> 
+                <section class="cuerpo__texto">
+                    <textarea id="entradaTexto" class="textarea" placeholder="Ingrese el texto aquí"></textarea>
+                    <div>
+                        <img src="assets/imagenes/alert.svg" alt="Alerta" class="alerta">
+                        <span class="informacion">Apenas letras minúsculas y sin acento.</span>
+                            <div class="botones">
+                                <button id="btn__encriptar"
+                                class="btn__encriptar">Encriptar</button>
+                                <button id="btn__desencriptar" 
+                                class="btn__desencriptar">Desencriptar</button>
+                            </div>
+                    </div>
+                </section>
+                <section class= "texto__encriptado ">
+                    <img src="./assets/imagenes/Muñeco.png" alt="muneco" id="muneco" class="muneco">
+                    <textarea id="mensajeFinal" class="textarea__encriptado" placeholder="Ningún mensaje fue encontrado"></textarea>
+                        <p id="info">Ingresa el texto que desees encriptar o desencriptar.</p>    
+                        <button class="btn__copiar ocultar">Copiar</button>
+                </section>
+            </div>
+        </main>
+        <div class="footer">
+            <footer>
+                <p class="creador">created by Rodrigo</p>
+                    <br>
+                <p class="usuario">@Rodrigo</p>
+            </footer>    
+        </div>
+        <script src="assets/components/script.js"></script>
+    </div>
+</body>
+</html>
