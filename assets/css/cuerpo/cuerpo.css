@@ -16,12 +16,23 @@
     width: 100%;
     padding: 10px;
 }
-
+.informacion{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    height: 18px;
+    margin-left: 5px
+}
 @media screen and (max-width: 768px) {
     .cuerpo {
         display: flex;
         flex-direction: column;
+        margin-bottom: 1rem;
     }
     .cuerpo__texto{
         width: 100%;
-}}
+    }
+    .alerta{
+        padding-left: 1.4rem;
+    }
+}
