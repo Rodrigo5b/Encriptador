@@ -15,6 +15,7 @@
         ["u", "ufat"],
     ];
     const cambios = (nvalue) =>{
+        mensajeFinal.innerHTML = nvalue;
         mensajeFinal.value = nvalue;
         muneco.classList.add("desaparecer");
         info.style.display = "none";
@@ -48,7 +49,6 @@
             };
             const timer = encriptar(texto)
             cambios(timer)
-
             } else{
                 alert("Ingresa texto a encriptar")
                 reset();
@@ -72,7 +72,6 @@
             reset();
         };
     })
-
     btnCopiar.addEventListener('click',()=>{
         let texto = mensajeFinal.textContent;
         navigator.clipboard.writeText(texto);
