@@ -15,7 +15,7 @@
         ["u", "ufat"],
     ];
     const cambios = (nvalue) =>{
-        mensajeFinal.innerHTML = nvalue;
+        mensajeFinal.value = nvalue;
         muneco.classList.add("desaparecer");
         info.style.display = "none";
         btnCopiar.classList.remove("ocultar");
