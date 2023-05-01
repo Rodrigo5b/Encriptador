@@ -4,8 +4,11 @@
     box-sizing: border-box;
     transition: .2s linear;
 }
-.body{
+html{
     background: #f3f5fc;
+
+}
+.body{
     font-family: 'Inter', sans-serif;
     width: 100%;
 }
